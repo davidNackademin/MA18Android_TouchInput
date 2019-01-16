@@ -23,6 +23,8 @@ public class PictureActivity extends AppCompatActivity {
 
         animalView.setImageResource(imageId);
 
+        // version 2
+        // reagera bara på touch input på våran Imageview
         animalView.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
@@ -46,6 +48,10 @@ public class PictureActivity extends AppCompatActivity {
 
 
     }
+
+    //version 1
+    // reagera på touch i hela aktiviteten
+
 
 //    @Override
 //    public boolean onTouchEvent(MotionEvent event) {
